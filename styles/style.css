@@ -73,6 +73,32 @@ p {
 	padding: 25px;
 	background: var(--secondary-color);
 }
+footer {
+	padding: 30px 0;
+	background: var(--branding-color);
+}
+footer .email-link {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	transition: all 150ms ease-in-out;
+}
+footer .email-link:hover {
+	text-decoration: underline;
+}
+footer .social-links a {
+	margin: 0 20px;
+	color: white;
+	font-size: 20px;
+	padding: 4px 14px;
+	border-radius: 50%;
+	transition: all 200ms ease-in-out;
+}
+footer .social-links a:hover {
+	color: var(--branding-color);
+	background: white;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -95,7 +121,7 @@ p {
 .contact-page {
 	display: flex;
 	flex-direction: column;
-	
 }
+
 }
 
