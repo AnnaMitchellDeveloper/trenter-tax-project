@@ -43,8 +43,11 @@ p {
 }
 .hero p,
 .hero h1, h2 {
-  color: white;
+  color: var(--default-font-family);
   font-size: 38px;
+}
+.hero-text {
+  color: white;
 }
 .btn-branding {
   background: var(--branding-color);
